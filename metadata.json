@@ -1,0 +1,6 @@
+{
+  "name": "Roopam Shopping Mall",
+  "description": "Roopam Shopping Mall is the premier fashion destination in Raver, Jalgaon, offering an ultra-premium shopping experience with curated clothing and accessories for men, women, and children.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

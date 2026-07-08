@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  
+  /* Professional Polish Luxury Theme Colors */
+  --color-gold-50: #fbf9f4;
+  --color-gold-100: #f0e7d5;
+  --color-gold-200: #e1d0b0;
+  --color-gold-300: #d2b98b;
+  --color-gold-400: #c5a059; /* Signature theme gold #C5A059 */
+  --color-gold-500: #b08942;
+  --color-gold-600: #937031;
+  --color-gold-700: #765624;
+  --color-gold-800: #5c411a;
+  --color-gold-900: #4a3415;
+  
+  --color-obsidian-50: #f5f5f5;
+  --color-obsidian-100: #e5e5e5;
+  --color-obsidian-200: #cccccc;
+  --color-obsidian-800: #1f1f1f;
+  --color-obsidian-900: #121212;
+  --color-obsidian-950: #0a0a0a;
+}
+
+/* Global resets for the luxury dark background */
+html, body {
+  background-color: #0a0a0a;
+  background-image: radial-gradient(circle at top right, #1a1a1a, #0a0a0a);
+  color: #f5f5f5;
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Glassmorphism Classes for Professional Polish */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-dark {
+  background: rgba(10, 10, 10, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.glass-navbar {
+  background: rgba(10, 10, 10, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(197, 160, 89, 0.15); /* #C5A059-based border */
+}
+
+/* Customize scrollbars for premium dark feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c5a059;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b08942;
+}
